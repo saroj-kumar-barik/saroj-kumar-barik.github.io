@@ -42,7 +42,14 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing-2", {
-        strings: ["YouTuber", "Developer", "Freelancer", "Singer"],
+        strings: ["YouTuber", "Software Engineer", "Android Developer"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-3", {
+        strings: ["YouTube", "GitHub", "LinkedIn", "Twitter", "Instagram"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true

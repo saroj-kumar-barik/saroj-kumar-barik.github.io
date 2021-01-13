@@ -253,6 +253,11 @@ section .title::after{
     background: none;
 }
 
+.social-links a{
+    margin-top: 5px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+}
 /* services section styling */
 .services, .teams{
     color:#fff;
